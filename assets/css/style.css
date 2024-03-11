@@ -1,0 +1,27 @@
+/* Overriding the default browser style using universal selector */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* General style */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+}
+/* header style */
+header {
+    background-color: cornflowerblue;
+}
+/* main style */
+main {
+    background-color: darkcyan;
+    flex: 1 0 auto;
+}
+/* footer style */
+footer {
+    background-color: darkkhaki;
+}
